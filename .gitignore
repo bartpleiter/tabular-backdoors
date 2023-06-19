@@ -149,11 +149,16 @@ data/syn10FTT*
 data/*/*.npy
 data/*/*.json
 data/*/*.pkl
+Notebooks/Defences/FinePruningFTT/data/*/*.npy
+Notebooks/Defences/FinePruningFTT/data/*/*.json
+Notebooks/Defences/FinePruningFTT/data/*/*.pkl
+Notebooks/Defences/FinePruningFTT/data/forestcover-type.csv
+Notebooks/Defences/FinePruningFTT/data/forestcover-type.gz
 
 # Models
-FTtransformerCheckpoints/
+/FTtransformerCheckpoints/
 Notebooks/Defences/models/*.zip
-
+Notebooks/Defences/FinePruningFTT/FTtransformerCheckpoints/*.pt
 # Log files
 output/
 
