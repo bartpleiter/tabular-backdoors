@@ -70,6 +70,6 @@ tail -f output/triggersize/TabNet_CovType_1F_OOB.log
 
 Output logs are found in the `output/` folder. All logs end with a section `EASY COPY PASTE RESULTS:` where you can copy the resulting lists containing the `ASR` and `BA` for each run.
 
-### Run notebooks (e.g. Spectral Signatures defence)
+### Run notebooks (Defences and FeatureImportance calculations)
 
-See the `Notebooks/` folder for other (smaller or parts of) experiments in the form of notebooks. To run the defences, you must first run the appropiate `CreateModel` Notebook to create a backdoored model and dataset which can then be analyzed with the other Notebooks.
+See the `Notebooks/` folder for other (smaller or parts of) experiments in the form of notebooks. To run the defences, you must first run the appropiate `CreateModel` Notebook to create a backdoored model and dataset which can then be analyzed with the other Notebooks. For Fine-Pruning defence, there is a dedicated subfolder in the `Notebooks/Defences` folder with notebooks to train, prune and finetune FTT.
